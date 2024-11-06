@@ -1,0 +1,135 @@
+---
+---
+
+
+@article{roberts2024grab,
+  title={GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models},
+  author={Roberts, Jonathan and Han, Kai and Albanie, Samuel},
+  journal={arXiv preprint arXiv:2408.11817},
+  year={2024},
+  abbr={arXiv},
+  preview={GRAB_overview.jpg},
+  selected={true},
+  paper = {https://arxiv.org/abs/2408.11817},
+  website = {https://grab-benchmark.github.io/},
+  code = {https://github.com/jonathan-roberts1/GRAB},
+  data = {https://huggingface.co/datasets/jonathan-roberts1/GRAB},
+  abstract = {Large multimodal models (LMMs) have exhibited profi-
+ciencies across many visual tasks. Although numerous well-
+known benchmarks exist to evaluate model performance,
+they increasingly have insufficient headroom. As such, there
+is a pressing need for a new generation of benchmarks chal-
+lenging enough for the next generation of LMMs. One area
+that LMMs show potential is graph analysis, specifically, the
+tasks an analyst might typically perform when interpreting
+figures such as estimating the mean, intercepts or correla-
+tions of functions and data series. In this work, we introduce
+GRAB, a graph analysis benchmark, fit for current and fu-
+ture frontier LMMs. Our benchmark is entirely synthetic,
+ensuring high-quality, noise-free questions. GRAB is com-
+prised of 2170 questions, covering four tasks and 23 graph
+properties. We evaluate 20 LMMs on GRAB, finding it to
+be a challenging benchmark, with the highest performing
+model attaining a score of just 21.7%. Finally, we conduct
+various ablations to investigate where the models succeed
+and struggle. We release GRAB to encourage progress in
+this important, growing domain.},
+}
+
+@article{roberts2024scifibench,
+  title={{S}ci{FIB}ench: Benchmarking Large Multimodal Models for Scientific Figure Interpretation},
+  author={Roberts, Jonathan and Han, Kai and Houlsby, Neil and Albanie, Samuel},
+  journal={NeurIPS},
+  year={2024},
+  abbr={NeurIPS},
+  preview={SFB_overview.jpg},
+  paper = {https://arxiv.org/abs/2103.00370},
+  selected={true},
+  code = {https://github.com/jonathan-roberts1/SciFIBench},
+  data = {https://huggingface.co/datasets/jonathan-roberts1/SciFIBench},
+  abstract = {Large multimodal models (LMMs) have proven flexible and generalisable across
+many tasks and fields. Although they have strong potential to aid scientific research,
+their capabilities in this domain are not well characterised. A key aspect of scientific
+research is the ability to understand and interpret figures, which serve as a rich,
+compressed source of complex information. In this work, we present SciFIBench, a
+scientific figure interpretation benchmark consisting of 2000 questions split between
+two tasks across 8 categories. The questions are curated from arXiv paper figures and
+captions, using adversarial filtering to find hard negatives and human verification for
+quality control. We evaluate 28 LMMs on SciFIBench, finding it to be a challenging
+benchmark. Finally, we investigate the alignment and reasoning faithfulness of the
+LMMs on augmented question sets from our benchmark. We release SciFIBench
+to encourage progress in this domain.},
+}
+
+@inproceedings{roberts2024charting,
+  title={Charting New Territories: Exploring the Geographic and Geospatial Capabilities of Multimodal LLMs},
+  author={Roberts, Jonathan and L{\"u}ddecke, Timo and Sheikh, Rehan and Han, Kai and Albanie, Samuel},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={554--563},
+  year={2024},
+  abbr={CVPRW},
+  preview={CNT_overview.jpg},
+  selected={true},
+  code = {https://github.com/jonathan-roberts1/charting-new-territories},
+  data = {https://github.com/jonathan-roberts1/charting-new-territories},
+  paper = {https://arxiv.org/abs/2311.14656},
+  abstract = {Multimodal large language models (MLLMs) have
+shown remarkable capabilities across a broad range of
+tasks but their knowledge and abilities in the geographic
+and geospatial domains are yet to be explored, despite potential wide-ranging benefits to navigation, environmental research, urban development, and disaster response.
+We conduct a series of experiments exploring various vision capabilities of MLLMs within these domains, particularly focusing on the frontier model GPT-4V, and benchmark its performance against open-source counterparts.
+Our methodology involves challenging these models with a
+small-scale geographic benchmark consisting of a suite of
+visual tasks, testing their abilities across a spectrum of complexity. The analysis uncovers not only where such models
+excel, including instances where they outperform humans,
+but also where they falter, providing a balanced view of their
+capabilities in the geographic domain. To enable the comparison and evaluation of future models, our benchmark
+will be publicly released.},
+}
+
+@inproceedings{
+roberts2023gptgeo,
+title={{GPT}4{GEO}: How a Language Model Sees the World{\textquoteright}s Geography},
+author={Jonathan Roberts and Timo L{\"u}ddecke and Sowmen Das and Kai Han and Samuel Albanie},
+booktitle={NeurIPS Foundation Models for Decision Making Workshop},
+year={2023},
+url={https://arxiv.org/abs/2306.00020},
+preview={GPT4GEO_overview.jpg},
+abbr={NeurIPSW},
+selected={true},
+paper = {https://arxiv.org/abs/2306.00020},
+code = {https://github.com/jonathan-roberts1/GPT4GEO},
+abstract = {Large language models (LLMs) have shown remarkable capabilities across a
+broad range of tasks involving question answering and the generation of coherent text and code. Comprehensively understanding the strengths and weaknesses
+of LLMs is beneficial for safety, downstream applications and improving performance. In this work, we investigate the degree to which GPT-4 has acquired
+factual geographic knowledge and is capable of using this knowledge for interpretative reasoning, which is especially important for applications that involve geographic data, such as geospatial analysis, supply chain management, and disaster
+response. To this end, we design and conduct a series of diverse experiments, starting from factual tasks such as location, distance and elevation estimation to more
+complex questions such as generating country outlines and travel networks, route
+finding under constraints and supply chain analysis. We provide a broad characterisation of what GPT-4 (without plugins or Internet access) knows about the
+world, highlighting both potentially surprising capabilities but also limitations.}
+}
+
+@inproceedings{
+roberts2023satin,
+title={{SATIN}: A Multi-task Metadataset for Classifying Satellite Imagery using Vision-language Models},
+author={Jonathan Roberts and Kai Han and Samuel Albanie},
+booktitle={ICCV Towards the Next Generation of Compter Vision Datasets Workshop},
+year={2023},
+preview={SATIN_overview.jpg},
+abbr={ICCVW},
+selected={true},
+website = {https://satinbenchmark.github.io/},
+paper = {https://arxiv.org/abs/2304.11619},
+data = {https://huggingface.co/datasets/jonathan-roberts1/SATIN},
+abstract = {Interpreting remote sensing imagery enables numerous
+downstream applications ranging from land-use planning
+to deforestation monitoring. Robustly classifying this data
+is challenging due to the Earth's geographic diversity.
+While many distinct satellite and aerial image classification datasets exist, there is yet to be a benchmark curated
+that suitably covers this diversity. In this work, we introduce SATellite ImageNet (SATIN), a metadataset curated
+from 27 existing remotely sensed datasets, and comprehensively evaluate the zero-shot transfer classification capabilities of a broad range of vision-language (VL) models on
+SATIN. We find SATIN to be a challenging benchmark—the
+strongest method we evaluate achieves a classification accuracy of 52.0%. We provide a public leaderboard1
+to guide
+and track the progress of VL models in this important domain.}
+}

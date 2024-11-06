@@ -1,0 +1,19 @@
+"NeurIPSW":
+  url: https://nips.cc/
+  color: "#00bbff"
+
+"NeurIPS":
+  url: https://nips.cc/
+  color: "#00bbff"
+
+"ICCVW":
+  url: https://iccv2023.thecvf.com/
+  color: "#009f36"
+
+"CVPRW":
+  url: https://cvpr.thecvf.com/
+  color: "#00369f"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
