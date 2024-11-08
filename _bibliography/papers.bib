@@ -1,6 +1,21 @@
 ---
 ---
 
+@article{roberts2024needles,
+  title={Needle Threading: Can LLMs Follow Threads through Near-Million-Scale Haystacks?},
+  author={Roberts, Jonathan and Han, Kai and Albanie, Samuel},
+  journal={arXiv preprint arXiv:2411.05000},
+  year={2024},
+  abbr={arXiv},
+  preview={context_length_comparison_llama_essay.png},
+  selected={true},
+  paper = {https://arxiv.org/abs/2411.05000},
+  website = {https://needle-threading.github.io/},
+  code = {https://github.com/jonathan-roberts1/needle-threading},
+  data = {https://huggingface.co/datasets/jonathan-roberts1/needle-threading},
+  abstract = {As the context limits of Large Language Models (LLMs) increase, the range of possible applications and downstream functions broadens. In many real-world tasks, decisions depend on details scattered across collections of often disparate documents containing mostly irrelevant information. Long-context LLMs appear well-suited to this form of complex information retrieval and reasoning, which has traditionally proven costly and time-consuming. However, although the development of longer context models has seen rapid gains in recent years, our understanding of how effectively LLMs use their context has not kept pace. To address this, we conduct a set of retrieval experiments designed to evaluate the capabilities of 17 leading LLMs, such as their ability to follow threads of information through the context window. Strikingly, we find that many models are remarkably threadsafe: capable of simultaneously following multiple threads without significant loss in performance. Still, for many models, we find the effective context limit is significantly shorter than the supported context length, with accuracy decreasing as the context window grows. Our study also highlights the important point that token counts from different tokenizers should not be directly compared -- they often correspond to substantially different numbers of written characters. We release our code and long-context experimental data.},
+}
+
 
 @article{roberts2024grab,
   title={GRAB: A Challenging GRaph Analysis Benchmark for Large Multimodal Models},
@@ -18,16 +33,12 @@
 ciencies across many visual tasks. Although numerous well-
 known benchmarks exist to evaluate model performance,
 they increasingly have insufficient headroom. As such, there
-is a pressing need for a new generation of benchmarks chal-
-lenging enough for the next generation of LMMs. One area
+is a pressing need for a new generation of benchmarks challenging enough for the next generation of LMMs. One area
 that LMMs show potential is graph analysis, specifically, the
 tasks an analyst might typically perform when interpreting
-figures such as estimating the mean, intercepts or correla-
-tions of functions and data series. In this work, we introduce
-GRAB, a graph analysis benchmark, fit for current and fu-
-ture frontier LMMs. Our benchmark is entirely synthetic,
-ensuring high-quality, noise-free questions. GRAB is com-
-prised of 2170 questions, covering four tasks and 23 graph
+figures such as estimating the mean, intercepts or correlations of functions and data series. In this work, we introduce
+GRAB, a graph analysis benchmark, fit for current and future frontier LMMs. Our benchmark is entirely synthetic,
+ensuring high-quality, noise-free questions. GRAB is comprised of 2170 questions, covering four tasks and 23 graph
 properties. We evaluate 20 LMMs on GRAB, finding it to
 be a challenging benchmark, with the highest performing
 model attaining a score of just 21.7%. Finally, we conduct
