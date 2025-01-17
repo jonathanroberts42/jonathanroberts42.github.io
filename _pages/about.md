@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 <br><br>
 My research interests include evaluating, benchmarking and understanding the behaviour and capabilities of vision-language models, large language models and large multimodal models. I am particularly interested in the application of these models to the scientific and geospatial domains as well as long-context settings.
 <br><br>
-Previously, I completed an MRes in Environmental Data Science at the University of Cambridge. Before this, I was a Systems Engineer at Lockheed Martin. I initially completed a Master of Physics (BSc MPhys) at the University of Warwick, supervised by <a href="https://warwick.ac.uk/fac/sci/physics/research/astro/people/pollacco/">Don Pollacco</a> and <a href="https://mpolin.com/">Marco Polin</a>.
+Previously, I completed an MRes in Environmental Data Science at the University of Cambridge. Before this, I worked as a Systems Engineer in the aerospace industry. I initially completed a Master of Physics (BSc MPhys) at the University of Warwick, supervised by <a href="https://warwick.ac.uk/fac/sci/physics/research/astro/people/pollacco/">Don Pollacco</a> and <a href="https://mpolin.com/">Marco Polin</a>.
 </div>
 
 
