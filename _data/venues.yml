@@ -17,3 +17,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
+
+"ICLR":
+  url: https://iclr.cc/Conferences/2025
+  color: "#A020F0"
