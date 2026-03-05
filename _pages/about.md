@@ -8,17 +8,21 @@ profile:
   image: jonathan-roberts-square-profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cambridge, UK</p>
+    <p style="display: block; text-align: right;">Cambridge, UK</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<div style="text-align: justify">I am a PhD student based in the Machine Intelligence Laboratory at the University of Cambridge, supervised by <a href="https://samuelalbanie.com/">Samuel Albanie</a> (Google DeepMind), <a href="https://www.kaihan.org/">Kai Han</a> (The University of Hong Kong), and <a href="https://www.cst.cam.ac.uk/people/efs20/">Emily Shuckburgh</a> (University of Cambridge). I am part of the Application of Artificial Intelligence for Environmental Risk (<a href="https://ai4er-cdt.esc.cam.ac.uk/">AI4ER</a>) CDT.
+<div style="text-align: justify">I am a PhD student in the Machine Intelligence Laboratory at the University of Cambridge, supervised by <a href="https://samuelalbanie.com/">Samuel Albanie</a> (Google DeepMind), <a href="https://www.kaihan.org/">Kai Han</a> (The University of Hong Kong), and <a href="https://www.cst.cam.ac.uk/people/efs20/">Emily Shuckburgh</a> (University of Cambridge). I am part of the Application of Artificial Intelligence for Environmenart oftal Risk (<a href="https://ai4er-cdt.esc.cam.ac.uk/">AI4ER</a>) CDT.
 <br><br>
-My research interests include evaluating, benchmarking and understanding the behaviour and capabilities of vision-language models, large language models and large multimodal models. I am particularly interested in the application of these models to the scientific and geospatial domains as well as long-context settings.
+
+My research focuses on evaluating, benchmarking and understanding the behaviour and capabilities of frontier models (VLMs, LLMs and LMMs). I am particularly interested in hard evals and the application of these models to the scientific and geospatial domains, as well as long-context settings. More recently, I've worked on low-latency browser automation and regularly update <a href="https://github.com/warpsurf/warpsurf">warpsurf</a>.
 <br><br>
+
 Previously, I completed an MRes in Environmental Data Science at the University of Cambridge. Before this, I worked as a Systems Engineer in the aerospace industry. I initially completed a Master of Physics (BSc MPhys) at the University of Warwick, supervised by <a href="https://warwick.ac.uk/fac/sci/physics/research/astro/people/pollacco/">Don Pollacco</a> and <a href="https://mpolin.com/">Marco Polin</a>.
+<br><br>
+<br><br>
 </div>
 
 
